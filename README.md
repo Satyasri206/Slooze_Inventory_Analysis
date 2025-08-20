@@ -1,7 +1,41 @@
-# Slooze Take-Home Challenge
-## How to Run
-1. Open the Jupyter Notebook `Slooze_Inventory_Analysis.ipynb`.
-2. Make sure all CSV files are in the same folder.
-3. Install required packages:
-!pip install pandas numpy matplotlib seaborn prophet
-4. Run all cells.
+📊 Slooze Take-Home Challenge: Inventory, Purchase & Sales Analysis
+📝 Project Overview
+
+This project analyzes sales, purchases, and inventory data for a retail wine & spirits company.
+The goal is to optimize inventory management, identify trends, and extract meaningful business insights.
+
+The analyses include:
+
+🔮 Demand Forecasting (Prophet time series model)
+
+🏷️ ABC Analysis (categorizing inventory into A/B/C classes)
+
+📦 Economic Order Quantity (EOQ) & Reorder Point (ROP)
+
+⏳ Lead Time & Safety Stock Analysis
+
+📉 Inventory Turnover & Slow Movers
+
+📊 Profit Margin & Top Products
+
+🚚 Supplier Efficiency Analysis
+
+⚙️ How to Run
+
+Clone this repository:
+
+git clone https://github.com/Satyasri206/Slooze_Inventory_Analysis.git
+cd Slooze_Inventory_Analysis
+
+
+Open the Jupyter Notebook:
+
+jupyter notebook slooze.ipynb
+
+
+Make sure required Python packages are installed:
+
+pip install pandas numpy matplotlib seaborn prophet scikit-learn
+
+
+Run all cells in the notebook.
