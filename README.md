@@ -24,7 +24,7 @@ The analyses include:
 
 Clone this repository:
 
-git clone https://github.com/Satyasri206/Slooze_Inventory_Analysis.git
+git clone https://github.com/<your-username>/Slooze_Inventory_Analysis.git
 cd Slooze_Inventory_Analysis
 
 
@@ -39,3 +39,25 @@ pip install pandas numpy matplotlib seaborn prophet scikit-learn
 
 
 Run all cells in the notebook.
+
+📂 Repository Structure
+Slooze_Inventory_Analysis/
+│-- slooze.ipynb          # Main analysis notebook
+│-- aging_inventory.csv   # Derived dataset - aging stock
+│-- eoq_rop_data.csv      # EOQ and ROP results
+│-- slow_movers.csv       # Slow-moving products
+│-- top_margin_products.csv # High-margin products
+│-- turnover_data.csv     # Inventory turnover insights
+│-- README.md             # Project documentation
+
+🚀 Insights & Outcomes
+
+Identified top-performing products and slow movers.
+
+Calculated optimal order quantities to reduce carrying costs.
+
+Suggested safety stock levels to prevent stockouts.
+
+Analyzed supplier efficiency and procurement lead times.
+
+Built a forecasting model for future demand planning.
