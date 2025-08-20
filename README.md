@@ -40,15 +40,6 @@ pip install pandas numpy matplotlib seaborn prophet scikit-learn
 
 Run all cells in the notebook.
 
-📂 Repository Structure
-Slooze_Inventory_Analysis/
-│-- slooze.ipynb          # Main analysis notebook
-│-- aging_inventory.csv   # Derived dataset - aging stock
-│-- eoq_rop_data.csv      # EOQ and ROP results
-│-- slow_movers.csv       # Slow-moving products
-│-- top_margin_products.csv # High-margin products
-│-- turnover_data.csv     # Inventory turnover insights
-│-- README.md             # Project documentation
 
 🚀 Insights & Outcomes
 
